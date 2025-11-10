@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <style>
+        a {
+            text-decoration :none;
+            color:blue;
+        }
+        a:hover {
+            color:red;
+        }
+        a:active {
+            color:black;
+        }
+        a:focus{
+            outline : 2px solid orange;
+        }
+        a:visited {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="todo-list">
+        <li>
+            <input type="checkbox" id="1">
+            <label for="1">Complete 100 Tasks</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" href="https://www.freecodecamp.org/learn/full-stack-developer/lab-stylized-to-do-list/build-a-stylized-to-do-list" target=_blank>Taskbar</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="2">
+            <label for="2">Practice CSS Grids</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" href="https://www.freecodecamp.org/learn/full-stack-developer/lab-stylized-to-do-list/build-a-stylized-to-do-list" target=_blank>Gridbox</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="3">
+            <label for="3">Build Portfolio Page</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" href="https://www.freecodecamp.org/learn/full-stack-developer/lab-stylized-to-do-list/build-a-stylized-to-do-list" target=_blank>Portfolio</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="4">
+            <label for="4">Learn Flexbox</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" href="https://www.freecodecamp.org/learn/full-stack-developer/lab-stylized-to-do-list/build-a-stylized-to-do-list" target=_blank>Learnyard</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
