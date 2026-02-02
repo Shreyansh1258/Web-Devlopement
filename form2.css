@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+}
+
+.form-container {
+  background-color: blue;
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;              
+  margin-top: 12px;
+  margin-bottom: 5px;
+  color: yellow;
+}
+
+input,
+textarea {
+  width: 100%;                 
+  padding: 8px;                
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
